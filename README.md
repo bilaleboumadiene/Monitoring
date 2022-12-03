@@ -28,7 +28,15 @@ Prometheus : 127.0.0.1:9090
 
 Grafana : 127.0.0.1:3000 | Logins : Admin / toto  
 
-Loki : 127.0.0.1:3100  
+&nbsp;
+
+Agents : 
+
+Loki : 127.0.0.1:3100 
+
+Promtail : 127.0.0.1:9080  
+
+Node-exporter : 127.0.0.1:9100
 
 &nbsp;
 

@@ -15,7 +15,7 @@ Docker-compose 2.13.0
 ## **Installation**
 1 . Clonez le répertoire sur votre machine en local avec git clone https://github.com/bilaleboumadiene/Monitoring.git
 
-2 . Lancez la commande 
+2 . Accédez au répertoire et lancez la commande 
 ```
 docker compose up -d
 ```  

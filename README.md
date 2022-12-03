@@ -4,7 +4,7 @@ Extrait d'un projet réalisé en entreprise ayant pour objectif le monitoring d'
 
 &nbsp;
 
-**Prérequis**
+## **Prérequis**
 
 Docker 20.10.14  
 
@@ -12,7 +12,7 @@ Docker-compose 2.13.0
 
 &nbsp;
 
-**Installation**
+## **Installation**
 &nbsp;
 
 1 . Clonez le répertoire sur votre machine en local avec git clone https://github.com/bilaleboumadiene/Monitoring.git
@@ -22,9 +22,7 @@ Docker-compose 2.13.0
 docker compose up -d
 ```  
 
-&nbsp;
-
-**Utilisation**
+## **Utilisation**
 
 Accessibles via interface WEB sur : 
 
@@ -34,10 +32,22 @@ Grafana : 127.0.0.1:3000 | Logins : Admin / toto
 
 Loki : 127.0.0.1:3100  
 
-&nbsp;  
+&nbsp;
 
-Agents : 
+## **Screenshots**
+  
+ &nbsp;  
+ 
+<p align="center">
+	 <a><img src="https://i.imgur.com/P6YcEQf.png" width="100%"></a>
+</p>
 
-Node-exporter : 127.0.0.1:9100  
+<p align="center">
+	 <a><img src="https://i.imgur.com/nea6suc.png" width="100%"></a>
+</p>
 
-Promtail : 127.0.0.1:9080
+<p align="center">
+	 <a><img src="https://i.imgur.com/y9yyOUf.png" width="100%"></a>
+</p>
+
+

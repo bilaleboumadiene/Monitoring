@@ -1,13 +1,18 @@
 # Solution de monitoring avec Prometheus / Grafana / Loki  
+****************
+Extrait d'une solution de monitoring réalisé en entreprise pour une solution de monitoring d'applications WEB, le cluster Docker représente içi le "coeur" de la solution et est mis à disposition pour un essai en local  
 
-Extrait d'une solution de monitoring réalisé en entreprise pour une solution de monitoring d'applications WEB, le cluster Docker représente içi le "coeur" de la solution et est mis à disposition pour un essai en local
+&nbsp;
 
-# Prérequis
+**Prérequis**
 
-Docker 20.10.14
-Docker-compose 2.13.0
+Docker 20.10.14  
 
-# Installation
+Docker-compose 2.13.0  
+
+&nbsp;
+
+**Installation**
 &nbsp;
 
 1 . Clonez le répertoire sur votre machine en local avec git clone https://github.com/bilaleboumadiene/HomelabVM.git
@@ -15,17 +20,24 @@ Docker-compose 2.13.0
 2 . Lancez la commande 
 ```
 docker compose up -d
-```
+```  
 
-# Utilisatio
+&nbsp;
+
+**Utilisation**
 
 Accessibles via interface WEB sur : 
 
-Prometheus : 127.0.0.1:9090
-Grafana : 127.0.0.1:3000 | Logins : Admin / toto
-Loki : 127.0.0.1:3100
+Prometheus : 127.0.0.1:9090  
+
+Grafana : 127.0.0.1:3000 | Logins : Admin / toto  
+
+Loki : 127.0.0.1:3100  
+
+&nbsp;  
 
 Agents : 
 
-Node-exporter : 127.0.0.1:9100
+Node-exporter : 127.0.0.1:9100  
+
 Promtail : 127.0.0.1:9080

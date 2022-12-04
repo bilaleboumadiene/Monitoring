@@ -1,9 +1,7 @@
 # Solution de monitoring avec Prometheus / Grafana / Loki  
 ****************
 Extrait d'un projet réalisé en entreprise ayant pour objectif le monitoring d'applications WEB, le cluster Docker représente içi le "coeur" de la solution et est mis à disposition pour un essai en local  
-
 &nbsp;
-
 ## **Prérequis**
 
 Docker 20.10.14  
